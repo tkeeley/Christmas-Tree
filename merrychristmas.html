@@ -1,0 +1,83 @@
+<head>
+	<title>Merry Christmas</title>
+<style>
+
+blockquote {
+	font-weight:900; line-height:0.75em
+}
+
+html{
+	background: #b4d8e7;
+	height: 100%;
+}
+
+body{
+	padding-top: 50px;
+}
+
+</style>
+</head>
+<body>
+<blockquote><font color=yellow><center>
+
+   *<br>
+
+*  *  *<br>
+
+  *  *<br>
+
+<font color=green>
+
+<script language="JavaScript">
+
+var tree=Math.random()*10+3;
+
+var size=Math.round(tree)
+
+var width=1;
+
+for (i=0; i<=size; i++)
+
+{
+
+	for (x=0; x<=4; x++)
+
+	{
+
+		for (y=1; y<=width; y++)
+
+		{
+
+		var NewTree=Math.random()*15;
+
+		var topper=Math.round(NewTree);
+
+		if (topper<=1)
+
+		{
+
+		document.write("</font><font color=red> ^</font><font color=green>");
+
+		}
+
+		if (topper>=2){
+
+		document.write(" ^");
+
+		}
+
+		}
+
+	document.write("<br>");
+
+	var width=width+1;
+
+	}
+
+var width=width-2;
+
+}
+
+
+</script>
+</body>
